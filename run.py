@@ -51,7 +51,7 @@ def __parse_args():
     parser.add_argument('--storage_path', 
                         action='store', 
                         default='./storage',
-                        help="(str, default './storage') ----- Path to folder the output of programm will be saved to." )
+                        help="(str, default './storage') ----- Path to folder the output of program will be saved to.")
 
     return vars(parser.parse_args())
 
